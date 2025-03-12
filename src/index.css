@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.icon{
+    @apply text-[23px] font-bold bg-[#F2F8DF] p-2 rounded-full
+}
+
+.sidebar_list{
+    @apply hover:bg-[#F2F8DF] hover:text-black hover:font-bold text-gray-500 flex items-center pt-4 pb-3 px-3
+}
